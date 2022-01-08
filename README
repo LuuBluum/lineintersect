@@ -1,0 +1,6 @@
+A comparison of unoptimized line intersection computation, CPU-optimized line intersection,
+	and CUDA line intersection.
+
+To compile on a system equip with NVCC, run this line:
+
+nvcc -arch=sm_52  lineintersect.cu -o lineintersect
